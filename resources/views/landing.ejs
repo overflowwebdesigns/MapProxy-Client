@@ -1,0 +1,14 @@
+<body bgcolor="black" text="white">
+<h2>Service Running!</h2>
+
+<p>Change Port Number</p>
+<form action="port" method="GET">
+    <input type="text" placeholder="8080" value="<%= myVar %>" name="change">
+    <input type="submit" value="Change">
+</form>
+
+<p>Restart App</p>
+<form action="restart" method="GET">
+    <input type="submit" value="Restart">
+</form>
+</body>
